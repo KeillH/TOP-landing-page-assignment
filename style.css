@@ -9,7 +9,7 @@ body {
     flex-direction: column;
 }
 
-a {
+a.nav {
     color: #e5e7eb;
     text-decoration: none;
     padding: 15px 0px;
@@ -38,7 +38,7 @@ a {
 }
 .top-content {
     background-color: #1f2937;
-    padding: 50px 200px 150px 200px;
+    padding: 50px 200px 100px 200px;
     display: flex;
     justify-content: space-between;
 }
@@ -61,7 +61,6 @@ button.calculate {
     border-radius: 8px;
 }
 
-
 h1 {
     color: #f9faf8;
     font-size: 48px;
@@ -70,4 +69,41 @@ h1 {
 
 p {
     color: #f9faf8;
+}
+p.card-text {
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.main-content {
+    padding-top: 20px;
+}
+
+.content-cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 200px;
+}
+
+.card {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-img {
+    border: 3px solid #1f2937;
+    width: 180px;
+    max-height: 130px;
+    border-radius: 10px;
+}
+a.learn {
+    color: #3882f6;}
+
+h2 {
+    text-align: center;
 }
